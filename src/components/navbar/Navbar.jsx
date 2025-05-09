@@ -83,12 +83,12 @@ const Navbar = () => {
           isOpen ? 'scale-100 opacity-100 max-h-[500px]' : 'scale-95 opacity-0 max-h-0 overflow-hidden'
         } origin-top`}
       >
-        <ul className="mt-4 space-y-2 bg-[#1c1a22] p-4 rounded-md text-sm font-medium">
+        <ul className="mt-4 space-y-4 bg-[#7979793a] p-4 rounded-md text-sm font-medium text-center">
           {navLinks.map((link) => (
             <li key={link.to}>
               <Link
                 to={link.to}
-                className="block text-gray-300 hover:text-white transition"
+                className="block text-gray-300 hover:text-white transition hover:underline"
                 onClick={() => setIsOpen(false)}
               >
                 {link.name}
