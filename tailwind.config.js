@@ -6,6 +6,7 @@ export default {
   ],
   theme: {
     extend: {
+     
       fontFamily: {
         julius: ['"Julius Sans One"', 'sans-serif'],
         robotoSerif: ['"Roboto Serif"', 'serif'],
@@ -14,3 +15,4 @@ export default {
   },
   plugins: [],
 };
+
