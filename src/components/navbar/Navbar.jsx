@@ -39,10 +39,10 @@ const Navbar = () => {
 
         {/* CTA + Hamburger */}
         <div className="flex items-center gap-4">
-          <button className="hidden md:inline bg-gradient-to-r from-[#380069] via-[#8800ff9c] to-[#380069] px-8 py-2 rounded-full text-white font-semibold text-sm hover:opacity-90 transition">
+          <button className="hidden md:inline bg-gradient-to-r from-[#380069] via-[#8800ff9c] to-[#380069] px-8 py-2 rounded-full text-white font-light text-sm hover:opacity-90 transition uppercase font-sans">
             Get Started
           </button>
-          <div className="hidden md:inline w-8 h-8 bg-gray-600 rounded-full"></div>
+          
 
           {/* Hamburger */}
           <button
@@ -96,7 +96,7 @@ const Navbar = () => {
             </li>
           ))}
           <li>
-            <button className="w-full mt-2 bg-gradient-to-r from-purple-500 to-pink-500 px-4 py-2 rounded-full text-white font-semibold text-sm hover:opacity-90 transition">
+            <button className="w-full mt-2 bg-gradient-to-r from-[#380069] via-[#8800ff9c] to-[#380069] px-4 py-2 rounded-full text-white font-medium text-sm hover:opacity-90 transition uppercase font-sans">
               Get Started
             </button>
           </li>
