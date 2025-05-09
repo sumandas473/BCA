@@ -40,11 +40,11 @@ const HeroSection = () => {
           Bengal Coding Academy is a premier online platform offering structured programming courses designed to equip learners with in-demand technical skills. We specialize in delivering high-quality, industry-relevant training to help individuals advance their careers in software development and technology.
         </p>
         <div className="flex justify-center space-x-4 mb-14">
-          <button className="text-white text-sm sm:text-base font-normal rounded-lg px-6 py-2 border border-white border-opacity-40 hover:border-opacity-100 transition relative overflow-hidden" style={{ boxShadow: '0 0 8px 2px rgba(255,255,255,0.6)' }}>
+          <button className="text-white text-sm sm:text-base font-normal rounded-lg px-6 py-2 border border-white border-opacity-40 hover:border-opacity-100 transition relative overflow-hidden hover:scale-105 duration-150" style={{ boxShadow: '0 0 8px 2px rgba(255,255,255,0.6)' }}>
             Get Started Now
           </button>
-          <button className="text-white text-sm sm:text-base font-normal rounded-lg px-6 py-2 border border-white border-opacity-40 hover:border-opacity-100 transition relative overflow-hidden" style={{ boxShadow: '0 0 8px 2px rgba(255,255,255,0.6)' }}>
-            See Projects
+          <button className="text-white text-sm sm:text-base font-normal rounded-lg px-6 py-2 border border-white border-opacity-40 hover:border-opacity-100 transition relative overflow-hidden hover:scale-105 duration-150" style={{ boxShadow: '0 0 8px 2px rgba(255,255,255,0.6)' }}>
+            See Courses
           </button>
         </div>
         <div className="flex items-center justify-center text-gray-200 text-xs sm:text-sm space-x-4 max-w-[520px] mx-auto mb-16 select-none px-2">
@@ -54,7 +54,7 @@ const HeroSection = () => {
             <CgMouse />
           </div>
           <div className="flex-grow border-t border-gray-700 ml-2"></div>
-          <span className='text-gray-200'>to see projects</span>
+          <span className='text-gray-200'>to see Contents</span>
         </div>
 
         <ScrollVelocity

@@ -1,11 +1,23 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import SpotlightCard from '../SpotlightCard/SpotlightCard';
+import CountUp from '../CountUp/CountUp';
+
 
 
 const Stat = ({ label, value }) => (
   <div className="bg-[#111] p-4 xl:p-10 rounded-lg text-center w-full z-10">
-    <div className="text-2xl font-bold">{value}</div>
+    <div className="text-2xl font-bold">
+
+      <CountUp
+            from={0}
+            to={value}
+            separator=","
+            direction="up"
+            duration={2}
+            className="count-up-text"
+          />
+    </div>
     <div className="text-sm text-gray-400">{label}</div>
   </div>
 );
@@ -62,7 +74,7 @@ function Options() {
               'Core CS Subjects',
               'Free Web Dev',
               'Interview Experiences',
-              
+
             ].map((item, index) => (
               <button
                 key={index}
@@ -78,10 +90,11 @@ function Options() {
 
         <SpotlightCard className="custom-spotlight-card grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6 mt-10" spotlightColor="rgba(132, 0, 255, 1)">
 
-          <Stat label="Subscribers on YouTube" value="1 M+"/>
-          <Stat label="Followers on Twitter" value="6 K+" />
-          <Stat label="Followers on Instagram" value="135 K+" />
-          <Stat label="Followers on LinkedIn" value="522 K+" />
+          <Stat label="Subscribers on YouTube" value="5000"/>
+          
+            <Stat label="Followers on Twitter" value="6000" />
+            <Stat label="Followers on Instagram" value="13000" />
+            <Stat label="Followers on LinkedIn" value="5220" />
         </SpotlightCard>
 
       </div>
