@@ -19,7 +19,7 @@ const Footer = () => {
           </div>
           <div className="mt-4 flex items-center gap-2 text-[11px] uppercase tracking-widest text-gray-400 md:mt-0">
             Current Status{" "}
-            <span className="bg-green h-2 w-2 rounded-full"></span>
+            <span className="bg-green-600 h-2 w-2 rounded-full"></span>
           </div>
         </div>
 
