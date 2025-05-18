@@ -5,7 +5,6 @@ import CountUp from '../CountUp/CountUp';
 
 
 
-
 const Stat = ({ label, value }) => (
   <div className="bg-[#111] p-4 xl:p-10 rounded-lg text-center w-full z-10">
     <div className="text-2xl font-bold">
@@ -99,9 +98,6 @@ function Options() {
         </SpotlightCard>
 
       </div>
-
-
-
     </section>
   );
 }
